@@ -1,0 +1,57 @@
+﻿.container-user__card {
+    max-width: 300px;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: rgba(190, 190, 190, 1);
+    border-radius: 5px;
+
+    .card__header {
+        max-width: 200px;
+        width: 200px;
+        padding: 5px 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        background: rgba(210, 210, 210, 1);
+        border-radius: 5px;
+
+        span {
+            font-size: 1.2rem;
+            font-style: italic;
+            font-weight: 600;
+            letter-spacing: 0.05rem;
+        }
+    }
+
+    .card__main {
+        max-width: 200px;
+        padding: 5px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(210, 210, 210, 1);
+        border-radius: 5px;
+
+        span {
+            font-size: 0.9rem;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0.05rem;
+        }
+    }
+
+    .card__footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

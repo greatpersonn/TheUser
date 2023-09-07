@@ -1,0 +1,26 @@
+﻿.container-home {
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    .home__header {
+        font-size: 2.2rem;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+    }
+
+    .home__content {
+        max-width: 80%;
+        text-align: center;
+
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.05rem;
+    }
+}

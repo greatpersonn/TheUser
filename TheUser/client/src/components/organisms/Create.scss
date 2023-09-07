@@ -1,0 +1,17 @@
+﻿.container-create__form {
+    max-width: 100%;
+
+    .form-authorization {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .auth-header {
+            font-size: 2.2rem;
+            font-style: italic;
+            font-weight: 600;
+            letter-spacing: 0.05rem;
+        }
+    }
+}
